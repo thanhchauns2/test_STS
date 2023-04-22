@@ -15,6 +15,6 @@ public class HomePageController {
 	@RequestMapping("/")
 	public String index() {
 		System.out.println("Hello");
-		return "main/index";
+		return "/main/index";
 	}
 }
